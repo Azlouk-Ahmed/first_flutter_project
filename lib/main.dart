@@ -62,19 +62,155 @@ class SimpleWidget extends StatelessWidget {
           ),
         ),
       ),
-      body: Container(
-        child: Text("body of my widget"),
-        height: 200,
-        width: 200,
-        
-        alignment: Alignment.center,
-        margin: EdgeInsets.all(20),
-        padding: EdgeInsets.all(20),
-        decoration: BoxDecoration(
-            color: Color.fromARGB(28, 1, 162, 255),
-            borderRadius: BorderRadius.circular(20),
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [Container(
+                child: Text("aody of my widget"),
+                height: 70,
+                width: 70,
+                
+                alignment: Alignment.center,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Color.fromARGB(28, 1, 162, 255),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                ),
+                Container(
+                child: Text("body of my widget"),
+                height: 200,
+                width: 200,
+                
+                alignment: Alignment.center,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Color.fromARGB(28, 1, 162, 255),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                ),
+                
+                ],
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+              ),
+               Container(
+                child: Text("body of my widget"),
+                height: 200,
+                width: 200,
+                
+                alignment: Alignment.center,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Color.fromARGB(28, 1, 162, 255),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                ),
+                 Container(
+                child: Text("body of my widget"),
+                height: 200,
+                width: 200,
+                
+                alignment: Alignment.center,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Color.fromARGB(28, 1, 162, 255),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                ),
+                 Container(
+                child: Text("body of my widget"),
+                height: 200,
+                width: 200,
+                
+                alignment: Alignment.center,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Color.fromARGB(28, 1, 162, 255),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                ),
+                 Container(
+                child: Text("body of my widget"),
+                height: 200,
+                width: 200,
+                
+                alignment: Alignment.center,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Color.fromARGB(28, 1, 162, 255),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                ),
+                 Container(
+                child: Text("body of my widget"),
+                height: 200,
+                width: 200,
+                
+                alignment: Alignment.center,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Color.fromARGB(28, 1, 162, 255),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                ),
+                 Container(
+                child: Text("body of my widget"),
+                height: 200,
+                width: 200,
+                
+                alignment: Alignment.center,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Color.fromARGB(28, 1, 162, 255),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                ),
+                 Container(
+                child: Text("body of my widget"),
+                height: 200,
+                width: 200,
+                
+                alignment: Alignment.center,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Color.fromARGB(28, 1, 162, 255),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                ),
+                 Container(
+                child: Text("body of my widget"),
+                height: 200,
+                width: 200,
+                
+                alignment: Alignment.center,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Color.fromARGB(28, 1, 162, 255),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                ),
+                 Container(
+                child: Text("body of my widget"),
+                height: 200,
+                width: 200,
+                
+                alignment: Alignment.center,
+                padding: EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                    color: Color.fromARGB(28, 1, 162, 255),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                ),
+                
+            ],
+            
           ),
         ),
+      ),
       floatingActionButton: IconButton(onPressed: ()=>{}, icon: Icon(Icons.add),),
     );
   }
